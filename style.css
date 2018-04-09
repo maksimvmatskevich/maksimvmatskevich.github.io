@@ -1,0 +1,46 @@
+html {
+  background-color: #f8f8ff;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 110px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    
+    text-decoration: underline;
+    color: #4682b4;
+}
+
+ol {
+    margin: 0;
+    padding-left: 90px;
+    
+    font-size: 20px;
+    color: #87cefa;
+}
+
+li > a {
+    font-size: 26px;
+    text-decoration: none;
+    color: #20b2aa;
+}
+
+li > a:hover {
+    color: #87cefa;
+}
+
+li > a:active {
+    color: #d3d3d3;
+}
