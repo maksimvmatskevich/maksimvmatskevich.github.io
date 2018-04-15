@@ -1,0 +1,161 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.content-box-component {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 1440px;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+header.page-header {
+  background-color: #eeeeee;
+}
+
+ul.site-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.site-navigation a {
+  line-height: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+ul.cart {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.cart a {
+  line-height: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul.slider-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li.slider-item h2 {
+  margin: 0;
+
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+li.slider-item p {
+  margin: 0;
+
+  color: #283136;
+}
+
+a.slider-item-button {
+  text-decoration: none;
+}
+
+.button {
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+  background-color: #fb565a;
+}
+
+ul.features-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li.feature-item h3 {
+  margin: 0;
+
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+li.feature-item p.desc {
+  margin: 0;
+
+  color: #283136;
+}
+
+a.order-button-green {
+  background-color: #00ca74;
+}
+
+a.order-button-yellow {
+  background-color: #efc849;
+}
+
+div.company-info h2 {
+  margin: 0;
+
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+p.company-desc {
+  margin: 0;
+
+  color: #283136;
+}
+
+h4.services {
+  margin: 0;
+
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+ul.services-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.services-list li {
+  color: #283136;
+}
+
+p.about-us {
+  margin: 0;
+
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+ul.advantage-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
